@@ -14,7 +14,7 @@ one of the world's most-loved music platforms.
  # Features
  Search songs by artist or title
  
-🎧Preview tracks directly in the browser
+Preview tracks directly in the browser
 
  Dynamic music card rendering
  
@@ -25,10 +25,15 @@ one of the world's most-loved music platforms.
  Responsive layout
  
 # Technologies Used
+
 HTML5
+
 CSS3
+
 Vanilla JavaScript (ES6 Modules)
+
 Deezer API via RapidAPI
+
 Bootstrap Icons
 
 
