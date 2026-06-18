@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!--  * Bs Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- * Layout -->
+    <div class="layout">
+      <!-- * Aside -->
+      <aside>
+        <!-- Logo -->
+        <figure>
+          <img src="./image/logo.png" alt="Logo" />
+          <span>Spotify</span>
+        </figure>
+
+        <!-- Navigation -->
+        <nav>
+          <!-- Nav Item-1 -->
+          <a href="#">
+            <i class="bi bi-house"></i>
+            <span>Home Page</span>
+          </a>
+
+          <!-- Nav Item-2 -->
+          <a href="#">
+            <i class="bi bi-search"></i>
+            <span>Search</span>
+          </a>
+
+          <!-- Nav Item-3 -->
+          <a href="#">
+            <i class="bi bi-collection"></i>
+            <span>Libraries</span>
+          </a>
+
+          <!-- Nav Item-4 -->
+          <a href="#">
+            <i class="bi bi-music-note-list"></i>
+            <span>Play List</span>
+          </a>
+
+          <!-- Nav Item-5 -->
+          <a href="#">
+            <i class="bi bi-heart"></i>
+            <span>Popular Songs</span>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- * Main -->
+      <main>
+        <!-- * Header -->
+        <header>
+          <!-- Form -->
+          <form>
+            <input type="search" placeholder="Search a song..." />
+            <button type="submit"><i class="bi bi-search"></i></button>
+          </form>
+
+          <!-- Navigation -->
+          <nav>
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Sign in</a>
+          </nav>
+        </header>
+
+        <!-- * Music Wrapper -->
+        <section class="music-wrapper">
+          <!-- Title -->
+          <h1 id="music-title">Populer Musics</h1>
+
+          <!-- Music List -->
+          <div class="music-list">
+            <!-- Music Card -->
+            <!-- <div class="card">
+              <figure>
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+                  alt="music-image"
+                />
+
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+
+              <div class="music-info">
+                <h4>Rumors</h4>
+                <h4>NEFFEX</h4>
+              </div>
+            </div> -->
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- * Player -->
+    <section class="player">
+      <!-- Info -->
+      <div class="info">
+        <img src="./image/plak.png" alt="music-image" />
+        <div></div>
+      </div>
+      <!-- Audio -->
+      <div class="audio-wrapper">
+        <audio src="" controls></audio>
+      </div>
+
+      <!-- Icons -->
+      <div class="icons">
+        <i class="bi bi-apple-music"></i>
+        <i class="bi bi-music-note-list"></i>
+        <i class="bi bi-pc-display"></i>
+      </div>
+    </section>
+
+    <!-- Js Connection -->
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
