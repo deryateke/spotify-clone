@@ -41,6 +41,6 @@ Bootstrap Icons
 
 
 
-## ScreenShot
+## Preview
 <img src="spotify-clone.gif" />
 
