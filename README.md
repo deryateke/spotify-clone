@@ -1,24 +1,33 @@
-# Spotify Clone
+#🎵 Spotify Clone 
+
+Spotify Clone is a front-end music discovery app inspired by Spotify's iconic interface.
+Built entirely with Vanilla JavaScript and powered by the Deezer API, it lets you search
+for any artist or song and instantly preview tracks — no frameworks, no fluff.
+Type a name, hit search, and the app fetches real music data in real time, renders
+album covers as interactive cards, and drops the selected track into a sleek bottom
+player with smooth play/pause animations. A clean, fast, and functional tribute to
+one of the world's most-loved music platforms.
 
 
-Spotify Clone is a web application built with HTML, SCSS, and JavaScript that allows users to search for and listen to music.
 
 
-## Description
+ # Features
+ Search songs by artist or title
+🎧Preview tracks directly in the browser
+ Dynamic music card rendering
+ Music player with play/pause animation
+ Loader animation while fetching data
+ Responsive layout
+ 
+# Technologies Used
+HTML5
+CSS3
+Vanilla JavaScript (ES6 Modules)
+Deezer API via RapidAPI
+Bootstrap Icons
 
-Inspired by the Spotify interface, this project offers a simple yet functional music player that allows users to search for and listen to songs. The interface is fully designed with HTML and SCSS, while interactions and music playback features are implemented with JavaScript.
-
-## Features
-
-- Search for songs  
-- Play, pause, and resume music  
-- Responsive (mobile-friendly) design  
-- Modern interface inspired by Spotify
 
 
-## Live Demo
-
-https://clone-spotify-01.netlify.app/
 
 
 
