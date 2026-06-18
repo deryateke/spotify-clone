@@ -24,7 +24,4 @@ https://clone-spotify-01.netlify.app/
 
 ## ScreenShot
 <img src="spotify-clone.gif" />
-# Spotify-Clone
-# Spotify-Clone
-# spotify-clone
-# spotify-clone
+
