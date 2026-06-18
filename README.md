@@ -13,10 +13,15 @@ one of the world's most-loved music platforms.
 
  # Features
  Search songs by artist or title
+ 
 🎧Preview tracks directly in the browser
+
  Dynamic music card rendering
+ 
  Music player with play/pause animation
+ 
  Loader animation while fetching data
+ 
  Responsive layout
  
 # Technologies Used
