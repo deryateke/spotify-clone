@@ -1,4 +1,4 @@
-#🎵 Spotify Clone 
+# Spotify Clone 
 
 Spotify Clone is a front-end music discovery app inspired by Spotify's iconic interface.
 Built entirely with Vanilla JavaScript and powered by the Deezer API, it lets you search
